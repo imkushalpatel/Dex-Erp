@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">i-Erp</string>
+    <string name="title_activity_splash">i-ERP</string>
+
+    <!--     <string name="Login_User_Data">http://192.168.1.110/dextinterplocal/index.php/mobile/login_check/</string>
+        <string name="Get_Time_Sheet_Data_Week_Total">http://192.168.1.110/dextinterplocal/index.php/mobile/getTimeSheetDataWeekTotal/</string>
+        <string name="url_projectlist">http://192.168.1.110/dextinterplocal/index.php/mobile/getProjectList</string>
+        <string name="url_tasklist">http://192.168.1.110/dextinterplocal/index.php/mobile/getTaskList/</string>
+        <string name="url_subtasklist">http://192.168.1.110/dextinterplocal/index.php/mobile/getSubTaskList/</string>
+        <string name="url_timesheet_insert">http://192.168.1.110/dextinterplocal/index.php/mobile/timesheet_insert/</string>
+        <string name="url_timesheetfill_get">http://192.168.1.110/dextinterplocal/index.php/mobile/getTimeSheetDataByWeek/</string>
+        -->
+    <!--     <string name="Login_User_Data">http://122.170.115.40/dextinterp/index.php/mobile/login_check/</string>
+        <string name="Get_Time_Sheet_Data_Week_Total">http://122.170.115.40/dextinterp/index.php/mobile/getTimeSheetDataWeekTotal/</string>
+        <string name="url_projectlist">http://122.170.115.40/dextinterp/index.php/mobile/getProjectList</string>
+        <string name="url_tasklist">http://122.170.115.40/dextinterp/index.php/mobile/getTaskList/</string>
+        <string name="url_subtasklist">http://122.170.115.40/dextinterp/index.php/mobile/getSubTaskList/</string>
+        <string name="url_timesheet_insert">http://122.170.115.40/dextinterp/index.php/mobile/timesheet_insert/</string>
+        <string name="url_timesheetfill_get">http://122.170.115.40/dextinterp/index.php/mobile/getTimeSheetDataByWeek/</string>
+     -->
+    <string name="Login_User_Data">http://192.168.43.34/erp/index.php/mobile/login_check/</string>
+    <string name="Get_Time_Sheet_Data_Week_Total">http://192.168.43.34/erp/index.php/mobile/getTimeSheetDataWeekTotal/</string>
+    <string name="url_projectlist">http://192.168.43.34/erp/index.php/mobile/getProjectList</string>
+    <string name="url_tasklist">http://192.168.43.34/erp/index.php/mobile/getTaskList/</string>
+    <string name="url_subtasklist">http://192.168.43.34/erp/index.php/mobile/getSubTaskList/</string>
+    <string name="url_timesheet_insert">http://192.168.43.34/erp/index.php/mobile/timesheet_insert/</string>
+    <string name="url_timesheetfill_get">http://192.168.43.34/erp/index.php/mobile/getTimeSheetDataByWeek/</string>
+
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="timesheet_work_detail">Timesheet Work Details</string>
+    <string name="pls_select_project">Please select project.</string>
+    <string name="pls_select_task">Please select project task.</string>
+    <string name="pls_insert_noofhours">Please insert number of hours.</string>
+    <string name="pls_insert_valid_noofhours">Please insert valid number of hours(not 0).</string>
+    <string name="data_success">Data successfully inserted.</string>
+    <string name="data_success_delete">Data successfully deleted.</string>
+
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layer_card_background_white"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txt_ts_timesheetid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_ts_projectid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layer_card_background_orange"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_project"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_project" />
+
+        <TextView
+            android:id="@+id/txt_ts_projectname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#e53b35"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_ts_taskid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_task"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_task" />
+
+        <TextView
+            android:id="@+id/txt_ts_taskname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Medium Text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_ts_subtaskid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_subtask"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_subtask" />
+
+        <TextView
+            android:id="@+id/txt_ts_subtaskname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Medium Text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_comment" />
+
+        <TextView
+            android:id="@+id/txt_ts_comments"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Medium Text"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_hrs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_hours" />
+
+        <TextView
+            android:id="@+id/txt_ts_hours"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Medium Text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_ts_timesheetweek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_ts_timesheetmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_ts_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+
+
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layer_card_background_blue"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/btn_ts_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_edit"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn_ts_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_action_cancel_red" />
+    </LinearLayout>
+
+</LinearLayout>

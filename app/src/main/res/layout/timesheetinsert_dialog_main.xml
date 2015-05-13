@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layer_card_background_blue"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_timesheetentry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/layer_card_background_orange"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Timesheet Entry"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinnerProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abc_search_url_text_normal" />
+
+            <AutoCompleteTextView
+                android:id="@+id/actvProjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text=""
+                android:visibility="gone">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <Spinner
+                android:id="@+id/spinnerTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/abc_search_url_text_normal" />
+
+            <Spinner
+                android:id="@+id/spinnerSubTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/et_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Comments"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/et_no_of_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="No of Hours"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ok"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
